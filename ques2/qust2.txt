@@ -1,0 +1,59 @@
+question 
+
+->create a class Employee with 
+    -empId (int)
+    -empName (string)
+    -department (string)
+    -rating (double)
+    -compTransport (boolean)
+
+->create a static method findUsingTransport accepts a list of objects 
+ and a string deartment and return number of employees using company 
+ transport 
+ *return type :Integer
+
+->create a static method findSecondHighest that accepts a list of objects 
+ it should find the seond highest rating from the fiven  list of employees  and
+ these employes should not use the transport .print the name of that object in main
+ *return type: Object <Employee>
+
+ input format 
+ ------------
+
+ 1001
+ Arjun
+ it 
+ 5
+ true 
+ 1002
+ preeti 
+ it
+ 4
+ true 
+ 1003
+ lina
+ admin
+ 3.5
+ false
+ 1004
+ akash
+ hw
+ 4.5
+ false 
+ 1005
+ abin 
+ sw
+ 4.2
+ false 
+
+ it 
+
+ output 
+ ------
+ 2  
+ abin
+
+explanation
+
+2 ->only 2 objects that matches department it && using transport 
+abin ->second highest rating that not using transport
