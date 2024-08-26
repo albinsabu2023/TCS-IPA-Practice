@@ -1,0 +1,105 @@
+create c class  Car having 
+
+carId -int
+brand -string
+testConducted -int
+testPassed -int
+environment -String
+
+create constructors gettes and setters for each of these private variables 
+
+->
+read the input in main method  using Scanner class (4 cars)
+
+#create a static method findByPassedEnv that accept a list of cars and a string (environment) as input 
+it should return an integer which is the number of test passes for the given input env that 
+matches the array of cars objects . if no env matches it should print  "no matching env"
+
+
+#create a static method findGrade that accept a list of cars and a string(brand)
+it should return a string(grade) on the basis rating by following formula only if that matches the given brand 
+
+rating =(testPassed *100) /testConducted
+grade= "A1" if rating >80
+grade= "B2"  if rating <80;
+
+
+if no brand matches , print  "no matching brand"
+
+
+input1 
+---------
+
+100
+Tesla
+1000
+500
+Hills
+200
+Ford
+2000
+1500
+Desert
+300
+Royce
+3000
+1700
+Hills
+400
+Mercedez
+1000
+400
+Desert
+Desert1
+Mercedez1
+
+
+output1 
+---------
+no matching envs
+no matching brand
+
+explanation there is no input matching Desert1 as environment 
+also no matching environment called Mercedez1 
+
+
+
+input2 
+-----------
+100
+Tesla
+1000
+500
+Hills
+200
+Ford
+2000
+1500
+Desert
+300
+Royce
+3000
+1700
+Hills
+400
+Mercedez
+1000
+400
+Desert
+Desert
+Mercedez
+
+
+ouput2 
+--------
+
+1900
+B2
+
+explanation 
+
+1900 is the sum of testPassed by the car that having environment as desert (1500+400)
+B2 =given brand -Mercedez  
+    rating =(400*100)/1000
+    rating =40 
+    rating<80 therfore grade ="B2"

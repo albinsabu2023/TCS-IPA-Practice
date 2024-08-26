@@ -1,0 +1,47 @@
+You have to create  Hotel class that represents hotel booking information, with fields for hotelId(int), hotelName(string), dateBooked(String), numOfRooms(int), wifi(string), and bill(double).
+
+Implement two functions:
+
+->findNumOfRoomsa //accept list of hotels and a string month
+
+This function should take a array of hotels and a string representing a month (e.g., "may"). It should return the number of rooms booked in the hotel that was booked in the specified month.
+
+->searchByWifi
+
+This function should take a array of hotels and a string representing the wifi availability (either "yes" or "no"). It should return the hotel that has the second highest bill among those that have the specified wifi availability.
+Example:
+Given the following hotel data:
+
+
+Test Case 1:
+Input: findNumOfRooms(hotels, "may")
+Output: 5
+
+Test Case 2:
+Input: searchByWifi(hotels, "yes")
+Output: 103 (since Hotel Accord has the second highest bill)
+
+Additional Test Cases:
+Test Case 3:
+Input: findNumOfRooms(hotels, "feb")
+Output: 3
+Test Case 4:
+
+Input: findNumOfRooms(hotels, "jan")
+Output: 10
+Test Case 5:
+
+Input: searchByWifi(hotels, "no")
+Output: null (since no hotels have wifi as "no")
+Test Case 6:
+
+Input: searchByWifi(hotels, "yes")
+Output: 103 (Hotel Accord still has the second highest bill)
+Notes:
+If no hotel is booked in the specified month, findNumOfRooms should return 0.
+If there is no second-highest bill hotel in the list returned by searchByWifi, the function should return null.
+
+
+
+
+

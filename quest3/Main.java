@@ -1,3 +1,5 @@
+import java.uitl.*;
+
 class Hotel {
     private int hotelId;
     private String hotelName;
