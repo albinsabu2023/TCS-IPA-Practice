@@ -1,3 +1,3 @@
 ﻿# TCS-IPA-Practice
 
-`q1 Course average & sort by attribute`
+- [x] q1 1Course average & sort by attribute`
