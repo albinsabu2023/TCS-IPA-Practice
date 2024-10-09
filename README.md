@@ -1,6 +1,7 @@
 
 <img   align ="right" heght=50 width=50 src ="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png"/>
-﻿# TCS-IPA-Practice 
+
+# TCS-IPA-Practice 
  
 ### Simple Question
 - [x] Character frequency using map <a href="https://github.com/albinsabu2023/TCS-IPA-Practice/blob/main/CharFrequency/Main.java">Open Question</a>
