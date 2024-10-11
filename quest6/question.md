@@ -31,11 +31,48 @@ Finally, print   grade.
 
 ## Test cases
 
+
+ID	Name  Ranking	MatchesPlayed	Runs
+100	Sachin	5	       150          13000
+101	Sehwag	4	       120        	10000
+103	Dhoni	7	       110	        7000
+104	Kohli	15	        57	        4400
+
+
 ### input 
 
 ```
+100
+Sachin
+5
+150
+13000
+101
+sehwag
+4
+120
+10000
+103
+Dhoni
+7
+110
+7000
+104
+kohli
+15
+57
+4400
+100
 
+```
 
+## output
+
+```
+
+grade A
+grade A
+grade B
 
 ```
 

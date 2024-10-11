@@ -65,6 +65,20 @@ class Cricket {
 
 public class Main {
     public static void main(String[] args) {
+        // manuallly you can read input using loop
+        /*
+         * List<Cricket> input=new ArrayList<>();
+         * Scanner sc=new Scanner(System.in);
+         * for (int i=0;i<4;i++){
+         * int a=sc.nextInt();
+         * String b=sc.nextLine();sc.nextInt();
+         * int c=sc.nextInt();
+         * int d=sc.nextInt();
+         * int e=sc.nextInt();
+         * Cricket c=new Cricket(a,b,c,d,e);
+         * input.add(c);
+         * }
+         */
         Cricket c1 = new Cricket(100, "Sachin", 5, 150, 13000);
         Cricket c2 = new Cricket(101, "Sewag", 4, 120, 10000);
         Cricket c3 = new Cricket(102, "Dhoni", 7, 110, 7000);
