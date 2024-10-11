@@ -31,12 +31,13 @@ Finally, print   grade.
 
 ## Test cases
 
+| Player ID | Player Name | Matches Played | Runs  | rank  |
+|-----------|-------------|----------------|-------|-------|
+| 100       | Sachin      | 150            | 13000 | 5     |
+| 101       | Sehwag      | 120            | 10000 | 4     |
+| 103       | Dhoni       | 110            | 7000  | 7     |
+| 104       | Kohli       | 57             | 4400  | 15    |
 
-ID	Name  Ranking	MatchesPlayed	Runs
-100	Sachin	5	       150          13000
-101	Sehwag	4	       120        	10000
-103	Dhoni	7	       110	        7000
-104	Kohli	15	        57	        4400
 
 
 ### input 
