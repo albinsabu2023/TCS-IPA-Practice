@@ -1,4 +1,4 @@
-## task1 1
+## task 1
 create a class Course having 
  - courseId (int)
  - courseName (String)
@@ -32,12 +32,12 @@ create a static method  main findSortedCourse that take two arguments
 
 ### TEST CASES 
 
-| CourseId | courseName | courseAdmin | quiz | handson |
-|----------|------------|-------------|------|---------|
-|   111    | Kubernetes | Nisha       |  40  |  10     |
-|   321    | casandra   | Rashmi      |  40  |  10     |
-|   457    | apachespark| Nisha       |  40  |  10     |
-|   987    | sitecore   | Tirth       |  40  |  10     |
+| CourseId | courseName  | courseAdmin | quiz | handson |
+|----------|-------------|-------------|------|---------|
+|   111    | Kubernetes  | Nisha       |  40  |  10     |
+|   321    | casandra    | Rashmi      |  30  |  15     |
+|   457    | apachespark | Nisha       |  30  |  12     |
+|   987    | sitecore    | Tirth       |  50  |  20     |
 
 
 input 
