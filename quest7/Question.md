@@ -2,22 +2,21 @@
 
 Create a class Person with following attributes as private variables
 
-[X] firstName - String
-[X] lastName - String
-[X] age - int
-[X] gender -char
+[-] firstName - String
+[-] lastName - String
+[-] age - int
+[-] gender -char
 
 - create getters and setters for all atributes
 - create a parameterized  coustructor in given order
 
 ### task 2 
-
 Create a class Student that inherit Person class with following attributes as private variables
 
-[X] rollNo - int
-[X] course -String
-[X] semester - int
-[X] Gpa - double
+[-] rollNo - int
+[-] course -String
+[-] semester - int
+[-] Gpa - double
 
 - create getters and setters for all atributes
 - create a parameterized constructor for all these variables in given order
@@ -27,10 +26,10 @@ Create a class Student that inherit Person class with following attributes as pr
 
 Create a class Faculty with following attributes as private variables
 
-[x] employeeId -int
-[x] department -String
-[x] designation - String
-[x] salary  - double 
+[-] employeeId -int
+[-] department -String
+[-] designation - String
+[-] salary  - double 
 
 - create getters ,setters,parameterized counstructior for all attributes
 
